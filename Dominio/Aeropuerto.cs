@@ -23,9 +23,7 @@ namespace Dominio
 
         public void Validar()
         {
-            if (string.IsNullOrEmpty(_codigoIATA)) throw new Exception("El código IATA no puede estar vacío.");
-            if (_codigoIATA.Length != 3) throw new Exception("El código IATA debe tener exactamente 3 caracteres.");
-            if (!_codigoIATA.All(char.IsLetter)) throw new Exception("El código IATA debe contener solo letras.");
+            if (string.IsNullOrEmpty(_codigo)) throw new Exception("El codigo no puede ser vacío");         
             if (string.IsNullOrEmpty(_ciudad)) throw new Exception("La ciudad no puede ser nula.");
             if (_costoOperacion > 0) throw new Exception("El costo de operación debe ser mayor a 0.");
             if (_costoTasa > 0) throw new Exception("El costo de tasa debe ser mayor a 0.");

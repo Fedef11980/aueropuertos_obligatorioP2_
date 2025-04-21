@@ -6,29 +6,35 @@ using System.Threading.Tasks;
 
 namespace Dominio
 {
-    public class Cliente
+    public abstract class Cliente : Usuario
     {
-        private string _documento;
-        private string _nombre;
-        private string _mail;
-        private string _contrasenia;
-        private string _nacionalidad;
-        private ClienteOcacional _clienteOcacional;
-        private ClientePremium _clientePremium;
+        protected string _nombre;
+        protected string _documento;             
+        protected string _nacionalidad;
+       
 
-        public Cliente(string documento, string nombre, string mail, string contrasenia, string nacionalidad, ClienteOcacional clienteOcacional, ClientePremium clientePremium)
+        public Cliente(string mail, string contrasenia, string nombre, string documento, string nacionalidad): base (mail, contrasenia)
         {
-            _documento = documento;
             _nombre = nombre;
-            _mail = mail;
-            _contrasenia = contrasenia;
+            _documento = documento;           
             _nacionalidad = nacionalidad; ;
-            _clienteOcacional = clienteOcacional;
-            _clientePremium = clientePremium;
+           
         }
 
-        //ponerle que el mail tiene que ser unico
-        //ponerle que el documeto tiene que ser unico
-    }
+        public override void Validar()
+        {
+            base.Validar();
+            if (string.IsNullOrEmpty(_nombre)) throw new Exception("El nombre no puede ser nulo");
+            if (string.IsNullOrEmpty(_documento)) throw new Exception("El documento no puede ser nulo");           
+            if (string.IsNullOrEmpty(_nacionalidad)) throw new Exception("La nacionalidad no puede ser nula");
+
+        }
+
+        public string Documento
+        {
+            get { return _documento; }
+        }
+        
+    }    
 }
-}
+

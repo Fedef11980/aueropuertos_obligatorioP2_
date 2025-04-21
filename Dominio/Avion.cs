@@ -23,6 +23,10 @@ namespace Dominio
             _costoOperacionKm = costoOperacionKm;
         }
 
+        public double Alcance
+        {
+            get { return _alcance; }
+        }
 
         public void Validar()
         {

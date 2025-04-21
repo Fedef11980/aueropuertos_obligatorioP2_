@@ -19,5 +19,10 @@ namespace Dominio
             _aeropuertoLlegada = aeropuertoLlegada;
             _distancia = distancia;
         }
+
+        public double Distancia
+        {
+            get { return _distancia; }
+        }   
     }
 }
