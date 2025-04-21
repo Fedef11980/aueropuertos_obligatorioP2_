@@ -22,7 +22,7 @@ namespace Dominio
             PrecargarAeropuertos();
             PrecargarAviones();
             //PrecargarPasajes();
-            //PrecargarRutas();
+            PrecargarRutas();
             PrecargarUsuarios();
             //PrecargarVuelos();
         }
@@ -55,6 +55,13 @@ namespace Dominio
             if (p == null) throw new Exception("El pasaje no puede ser nulo");
             p.Validar();
             _pasajes.Add(p);
+        }
+
+        public void AgregarRutas(Ruta r)
+        {
+            if (r == null) throw new Exception("La ruta no puede ser nula");
+            r.Validar();
+            _rutas.Add(r);
         }
 
 
@@ -113,6 +120,8 @@ namespace Dominio
             AgregarUsuarios(new ClienteOcacional("74125896", "Daniela Lima", "daniela.ocasional@mail.com", "passDaniela", "Colombiana", true));
         }
 
+
+        //Sin terminar
         private void PrecargarPasajes()
         {
             AgregarPasajes(new Pasaje(BuscarVueloPorNumero("AAA123"),DateTime new(2024,01,20),BuscarClientePorDocumento("32165498"), Equipaje.Cabina));
@@ -144,8 +153,60 @@ namespace Dominio
             return buscado;
         }
 
+        private void PrecargarRutas()
+        {
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("MVD"), BuscarAeropuertoPorCodigo("EZE"), 220));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("MVD"), BuscarAeropuertoPorCodigo("GRU"), 1580));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("MVD"), BuscarAeropuertoPorCodigo("SCL"), 1370));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("MVD"), BuscarAeropuertoPorCodigo("LIM"), 3120));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("EZE"), BuscarAeropuertoPorCodigo("GRU"), 1670));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("EZE"), BuscarAeropuertoPorCodigo("MEX"), 7400));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("EZE"), BuscarAeropuertoPorCodigo("MIA"), 7100));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("GRU"), BuscarAeropuertoPorCodigo("BOG"), 4350));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("GRU"), BuscarAeropuertoPorCodigo("JFK"), 7680));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("GRU"), BuscarAeropuertoPorCodigo("MAD"), 8150));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("SCL"), BuscarAeropuertoPorCodigo("LIM"), 2450));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("SCL"), BuscarAeropuertoPorCodigo("CDG"), 11500));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("SCL"), BuscarAeropuertoPorCodigo("MEX"), 6600));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("LIM"), BuscarAeropuertoPorCodigo("BOG"), 1870));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("LIM"), BuscarAeropuertoPorCodigo("PTY"), 2300));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("BOG"), BuscarAeropuertoPorCodigo("JFK"), 4000));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("BOG"), BuscarAeropuertoPorCodigo("MIA"), 2500));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("PTY"), BuscarAeropuertoPorCodigo("MIA"), 1850));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("PTY"), BuscarAeropuertoPorCodigo("MAD"), 8400));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("MEX"), BuscarAeropuertoPorCodigo("JFK"), 3360));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("MEX"), BuscarAeropuertoPorCodigo("CDG"), 9200));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("JFK"), BuscarAeropuertoPorCodigo("MAD"), 5760));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("JFK"), BuscarAeropuertoPorCodigo("LHR"), 5550));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("MIA"), BuscarAeropuertoPorCodigo("LHR"), 7100));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("MAD"), BuscarAeropuertoPorCodigo("BCN"), 500));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("MAD"), BuscarAeropuertoPorCodigo("FRA"), 1450));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("FRA"), BuscarAeropuertoPorCodigo("CDG"), 500));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("CDG"), BuscarAeropuertoPorCodigo("AMS"), 430));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("AMS"), BuscarAeropuertoPorCodigo("LHR"), 370));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("LHR"), BuscarAeropuertoPorCodigo("DXB"), 5500));
+            AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("DXB"), BuscarAeropuertoPorCodigo("SYD"), 12000));
 
 
-        
+
+        }
+
+        private Aeropuerto BuscarAeropuertoPorCodigo(string codigo)
+        {
+            Aeropuerto buscado = null;
+            foreach (Aeropuerto a in _aeropuertos)
+            {
+                if (a.Codigo == codigo)
+                {
+                    buscado = a;
+                    break;
+                }
+            }
+            return buscado;
+        }
+
+
+
+
     }
 }

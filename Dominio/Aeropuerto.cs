@@ -21,6 +21,11 @@ namespace Dominio
             _costoTasa = costoTasa;
         }
 
+        public string Codigo
+        {
+            get { return _codigo; }
+        }
+
         public void Validar()
         {
             if (string.IsNullOrEmpty(_codigo)) throw new Exception("El codigo no puede ser vacío");         
