@@ -27,11 +27,12 @@ namespace Dominio
         {
             if (_vuelo == null) throw new Exception("El vuelo no puede ser nulo.");
             //fecha: fecha debe coincidir con la frecuencia del vuelo
-            if(_fecha )
+            if(_fecha == _vuelo.Frecuencia) throw new Exception("La fecha no coincide con la frecuencia del vuelo.");
             if (_cliente == null) throw new Exception("El pasajero no puede ser nulo.");
             if (_equipaje == null) throw new Exception("El equipaje no puede ser nulo.");
             if (_precio < 0) throw new Exception("El precio no puede ser menor a 0.");
-
         }
+
+
     }
 }

@@ -3,7 +3,8 @@
   "WorkspaceRootPath": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Consola\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56495E46-BDA3-47A2-A554-611869959683}|..\\Dominio\\Dominio.csproj|g:\\ort\\programacion 2\\programacion 2 - b\\obligatorio 1\\entrega\\dominio\\ruta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1804589-0240-4173-930A-44B64B127652}|Consola.csproj|g:\\ort\\programacion 2\\programacion 2 - b\\obligatorio 1\\entrega\\consola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1804589-0240-4173-930A-44B64B127652}|Consola.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56495E46-BDA3-47A2-A554-611869959683}|..\\Dominio\\Dominio.csproj|g:\\ort\\programacion 2\\programacion 2 - b\\obligatorio 1\\entrega\\dominio\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -12,23 +13,25 @@
       "AbsoluteMoniker": "D:0:0:{56495E46-BDA3-47A2-A554-611869959683}|..\\Dominio\\Dominio.csproj|g:\\ort\\programacion 2\\programacion 2 - b\\obligatorio 1\\entrega\\dominio\\pasaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56495E46-BDA3-47A2-A554-611869959683}|..\\Dominio\\Dominio.csproj|g:\\ort\\programacion 2\\programacion 2 - b\\obligatorio 1\\entrega\\dominio\\aeropuerto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{56495E46-BDA3-47A2-A554-611869959683}|..\\Dominio\\Dominio.csproj|g:\\ort\\programacion 2\\programacion 2 - b\\obligatorio 1\\entrega\\dominio\\vuelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{56495E46-BDA3-47A2-A554-611869959683}|..\\Dominio\\Dominio.csproj|g:\\ort\\programacion 2\\programacion 2 - b\\obligatorio 1\\entrega\\dominio\\ruta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56495E46-BDA3-47A2-A554-611869959683}|..\\Dominio\\Dominio.csproj|g:\\ort\\programacion 2\\programacion 2 - b\\obligatorio 1\\entrega\\dominio\\dia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{56495E46-BDA3-47A2-A554-611869959683}|..\\Dominio\\Dominio.csproj|g:\\ort\\programacion 2\\programacion 2 - b\\obligatorio 1\\entrega\\dominio\\avion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56495E46-BDA3-47A2-A554-611869959683}|..\\Dominio\\Dominio.csproj|g:\\ort\\programacion 2\\programacion 2 - b\\obligatorio 1\\entrega\\dominio\\aeropuerto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56495E46-BDA3-47A2-A554-611869959683}|..\\Dominio\\Dominio.csproj|g:\\ort\\programacion 2\\programacion 2 - b\\obligatorio 1\\entrega\\dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56495E46-BDA3-47A2-A554-611869959683}|..\\Dominio\\Dominio.csproj|g:\\ort\\programacion 2\\programacion 2 - b\\obligatorio 1\\entrega\\dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1804589-0240-4173-930A-44B64B127652}|Consola.csproj|g:\\ort\\programacion 2\\programacion 2 - b\\obligatorio 1\\entrega\\consola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1804589-0240-4173-930A-44B64B127652}|Consola.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,20 +41,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Consola\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Consola\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAHwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T21:54:05.057Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -61,10 +65,23 @@
               "RelativeDocumentMoniker": "..\\Dominio\\Sistema.cs",
               "ToolTip": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Sistema.cs",
               "RelativeToolTip": "..\\Dominio\\Sistema.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAIEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T20:17:40.851Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dia.cs",
+              "DocumentMoniker": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Dia.cs",
+              "RelativeDocumentMoniker": "..\\Dominio\\Dia.cs",
+              "ToolTip": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Dia.cs",
+              "RelativeToolTip": "..\\Dominio\\Dia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T21:35:28.884Z",
               "EditorCaption": ""
             },
             {
@@ -105,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Avion.cs",
               "DocumentMoniker": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Avion.cs",
               "RelativeDocumentMoniker": "..\\Dominio\\Avion.cs",
@@ -113,11 +130,12 @@
               "RelativeToolTip": "..\\Dominio\\Avion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T21:44:46.505Z"
+              "WhenOpened": "2025-04-20T21:44:46.505Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Usuario.cs",
               "DocumentMoniker": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Usuario.cs",
               "RelativeDocumentMoniker": "..\\Dominio\\Usuario.cs",
@@ -125,11 +143,12 @@
               "RelativeToolTip": "..\\Dominio\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T01:49:03.191Z"
+              "WhenOpened": "2025-04-19T01:49:03.191Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Cliente.cs",
               "DocumentMoniker": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Cliente.cs",
               "RelativeDocumentMoniker": "..\\Dominio\\Cliente.cs",
@@ -137,17 +156,18 @@
               "RelativeToolTip": "..\\Dominio\\Cliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T20:12:38.897Z"
+              "WhenOpened": "2025-04-18T20:12:38.897Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Aeropuerto.cs",
               "DocumentMoniker": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Aeropuerto.cs",
               "RelativeDocumentMoniker": "..\\Dominio\\Aeropuerto.cs",
               "ToolTip": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Aeropuerto.cs",
               "RelativeToolTip": "..\\Dominio\\Aeropuerto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T21:56:29.547Z",
               "EditorCaption": ""
@@ -155,27 +175,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Vuelo.cs",
-              "DocumentMoniker": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Vuelo.cs",
-              "RelativeDocumentMoniker": "..\\Dominio\\Vuelo.cs",
-              "ToolTip": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Vuelo.cs",
-              "RelativeToolTip": "..\\Dominio\\Vuelo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T22:03:29.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Ruta.cs",
               "DocumentMoniker": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Ruta.cs",
               "RelativeDocumentMoniker": "..\\Dominio\\Ruta.cs",
               "ToolTip": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Ruta.cs",
               "RelativeToolTip": "..\\Dominio\\Ruta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T22:01:55.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Vuelo.cs",
+              "DocumentMoniker": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Vuelo.cs",
+              "RelativeDocumentMoniker": "..\\Dominio\\Vuelo.cs",
+              "ToolTip": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Vuelo.cs",
+              "RelativeToolTip": "..\\Dominio\\Vuelo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T22:03:29.656Z",
               "EditorCaption": ""
             },
             {
@@ -186,7 +206,7 @@
               "RelativeDocumentMoniker": "..\\Dominio\\Pasaje.cs",
               "ToolTip": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Pasaje.cs",
               "RelativeToolTip": "..\\Dominio\\Pasaje.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T22:01:12.941Z",
               "EditorCaption": ""

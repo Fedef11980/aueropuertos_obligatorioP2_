@@ -50,6 +50,13 @@ namespace Dominio
             _aeropuertos.Add(a);
         }
 
+        public void AgregarRutas(Ruta r)
+        {
+            if (r == null) throw new Exception("La ruta no puede ser nula");
+            r.Validar();
+            _rutas.Add(r);
+        }
+
         public void AgregarPasajes(Pasaje p)
         {
             if (p == null) throw new Exception("El pasaje no puede ser nulo");
@@ -57,12 +64,7 @@ namespace Dominio
             _pasajes.Add(p);
         }
 
-        public void AgregarRutas(Ruta r)
-        {
-            if (r == null) throw new Exception("La ruta no puede ser nula");
-            r.Validar();
-            _rutas.Add(r);
-        }
+        
 
 
         //Precargas
@@ -102,7 +104,7 @@ namespace Dominio
         private void PrecargarUsuarios()
         {
             // Administradores
-            AgregarUsuarios(new Administrador("juan.admin@airline.com", "admin123", "AdminJuan"));
+            AgregarUsuarios(new Administrador("fede@mail.com", "fede123", "adminfede"));
             AgregarUsuarios(new Administrador("sofia.admin@airline.com", "admin456", "AdminSofia"));
 
             // Clientes Premium
@@ -186,9 +188,6 @@ namespace Dominio
             AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("AMS"), BuscarAeropuertoPorCodigo("LHR"), 370));
             AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("LHR"), BuscarAeropuertoPorCodigo("DXB"), 5500));
             AgregarRutas(new Ruta(BuscarAeropuertoPorCodigo("DXB"), BuscarAeropuertoPorCodigo("SYD"), 12000));
-
-
-
         }
 
         private Aeropuerto BuscarAeropuertoPorCodigo(string codigo)

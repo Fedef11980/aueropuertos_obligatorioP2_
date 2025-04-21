@@ -12,10 +12,9 @@ namespace Dominio
         private string _numeroVuelo;
         private Ruta _ruta;
         private Avion _avion;
-        private List<string> _frecuencia
-            ;
+        private List<Dia> _frecuencia;
 
-        public Vuelo(string numeroVuelo, Ruta ruta, Avion avion, List<string> frecuencia)
+        public Vuelo(string numeroVuelo, Ruta ruta, Avion avion, List<Dia> frecuencia)
         {
             _numeroVuelo = numeroVuelo;
             _ruta = ruta;
@@ -28,16 +27,19 @@ namespace Dominio
             get { return _numeroVuelo; }
         }
 
+        public List <Dia> Frecuencia
+        {
+            get { return _frecuencia; }
+        }
 
-        //Se deberá validar, entre otras, que el avión tenga el alcance para cubrir la distancia de la ruta.
+        
         public void Validar()
         {
             if(string.IsNullOrEmpty(_numeroVuelo)) throw new Exception("El número de vuelo no puede ser vacío");
             if (_ruta == null) throw new Exception("La ruta no puede ser nula");
-            if (_avion == null)
+            if (_avion == null) throw new Exception("El avión no puede ser nulo");
             if (_frecuencia == null || _frecuencia.Count == 0) throw new Exception("La frecuencia no puede ser nula o vacía");
             if (_avion.Alcance < _ruta.Distancia) throw new Exception("El avión no tiene el alcance suficiente para cubrir la distancia de la ruta.");
-
         }
     }
 }
