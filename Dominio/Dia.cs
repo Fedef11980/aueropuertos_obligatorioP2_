@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Dominio
 {
-    public enum  Dia
+    public enum Dia
     {
         Lunes,
         Martes,

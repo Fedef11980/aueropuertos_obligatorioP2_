@@ -10,3 +10,11 @@ G:\ORT\Programacion 2\Programacion 2 - B\Obligatorio 1\Entrega\Dominio\obj\Debug
 G:\ORT\Programacion 2\Programacion 2 - B\Obligatorio 1\Entrega\Dominio\obj\Debug\net8.0\refint\Dominio.dll
 G:\ORT\Programacion 2\Programacion 2 - B\Obligatorio 1\Entrega\Dominio\obj\Debug\net8.0\Dominio.pdb
 G:\ORT\Programacion 2\Programacion 2 - B\Obligatorio 1\Entrega\Dominio\obj\Debug\net8.0\ref\Dominio.dll
+C:\Users\dtecheira\Desktop\1\1. Obligatorio\obligatorio_01_05_2025\Dominio\obj\Debug\net8.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dtecheira\Desktop\1\1. Obligatorio\obligatorio_01_05_2025\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\dtecheira\Desktop\1\1. Obligatorio\obligatorio_01_05_2025\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfo.cs
+C:\Users\dtecheira\Desktop\1\1. Obligatorio\obligatorio_01_05_2025\Dominio\obj\Debug\net8.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\dtecheira\Desktop\1\1. Obligatorio\obligatorio_01_05_2025\Dominio\obj\Debug\net8.0\Dominio.sourcelink.json
+C:\Users\dtecheira\Desktop\1\1. Obligatorio\obligatorio_01_05_2025\Dominio\obj\Debug\net8.0\Dominio.dll
+C:\Users\dtecheira\Desktop\1\1. Obligatorio\obligatorio_01_05_2025\Dominio\obj\Debug\net8.0\refint\Dominio.dll
+C:\Users\dtecheira\Desktop\1\1. Obligatorio\obligatorio_01_05_2025\Dominio\obj\Debug\net8.0\Dominio.pdb

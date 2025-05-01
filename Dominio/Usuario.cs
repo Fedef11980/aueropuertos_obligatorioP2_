@@ -20,6 +20,13 @@ namespace Dominio
 
         }
 
+        // El mail tiene que ser unico
+        public override bool Equals(object obj)
+        {
+            Usuario u = obj as Usuario;
+            return this._mail == u._mail;
+        }
+
         public virtual void Validar()
         {
             if (string.IsNullOrEmpty(_mail)) throw new Exception("El mail no puede ser nulo o vacío");
@@ -30,9 +37,34 @@ namespace Dominio
         public void ValidarMail()
         {
             if (_mail.Length < 5) throw new Exception("El correo electrónico debe tener al menos 5 caracteres.");
-            if (!_mail.Contains("@")) throw new Exception("El correo electrónico debe contener '@'.");
+            ValidarArroba();
             if (!_mail.Contains(".")) throw new Exception("El correo electrónico debe contener un punto '.'.");
-            if (!_mail.Contains("com")) throw new Exception("El correo electrónico debe contener '.com'.");
+            if (!(_mail.EndsWith(".com") || !_mail.Contains(".com")) throw new Exception("El correo electrónico debe terminar en '.com'.");
         }
+
+        public void ValidarArroba()
+        {
+            bool tieneArroba = false;
+            int posicionArroba = -1;
+
+            for (int i = 0; i < _mail.Length; i++)
+            {
+                if (_mail[i] == '@')
+                {
+                    tieneArroba = true;
+                    posicionArroba = i;
+                    break; // Si tiene arroba salgo
+                }
+            }
+
+            // Si no tiene arroba, muestro mensaje
+            if (!tieneArroba)
+                throw new Exception("El correo electrónico debe contener '@'.");
+
+            // Constrolo que el arroba no sea la primer ni la ultima letra
+            if (posicionArroba == 0 || posicionArroba == _mail.Length - 1) throw new Exception("El '@' no puede estar al principio ni al final.");
+        }
+
+
     }
 }

@@ -14,36 +14,37 @@ namespace Consola
             while (opcion != "0")
             {
                 MostrarMenu();
-                Console.Write("Ingrese una opcion -> ");
+                Console.Write("Ingrese una opción -> ");
                 opcion = Console.ReadLine();
 
                 switch (opcion)
                 {
-                    case "1":                        
-                        PressToContinue();
+                    case "1":
+                        //Listar Clientes
+                        ListadoClientes();
                         break;
-                    case "2":                        
-                        PressToContinue();
-                        break;
-                    case "3":                       
-                        PressToContinue();
+                    case "2":
+                    // Listar vuelos por codigo de aeropuerto
+
+                    case "3":
+                        //Alta Cliente Ocasional
+                        CrearClienteOcasional();
+
                         break;
                     case "4":
-                        PressToContinue();
-                        break;
-                    case "5":
-                        PressToContinue();
-                        break;
+                    // Listar pasajes entre fechas  
+
+
                     case "0":
                         Console.WriteLine("Saliendo...");
                         break;
                     default:
-                        MostrarError("ERROR: Opcion inválida");
+                        MostrarError("ERROR: Opción inválida");
                         PressToContinue();
                         break;
                 }
             }
-           
+
         }
 
         static void MostrarMenu()
@@ -52,15 +53,16 @@ namespace Consola
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("****** MENU ******");
             Console.ForegroundColor = ConsoleColor.Gray;
-            Console.WriteLine("1 - Crear Usuario");
-            Console.WriteLine("2 - ");
-            Console.WriteLine("3 - ");
-            Console.WriteLine("0 - Salir ");
+            Console.WriteLine("1 - Listar Clientes");
+            Console.WriteLine("2 - Listar vuelos por código de aeropuerto");
+            Console.WriteLine("3 - Alta Cliente Ocasional");
+            Console.WriteLine("4 - Listar pasajes entre fechas");
+            Console.WriteLine("0 - Salir");
         }
 
         static void PressToContinue()
         {
-            Console.WriteLine("Presione una tecla para continuar");
+            Console.WriteLine("Presione una tecla para continuar…");
             Console.ReadKey();
         }
 
@@ -94,36 +96,55 @@ namespace Consola
                 Console.Write(mensaje);
                 exito = int.TryParse(Console.ReadLine(), out numero);
 
-                if (!exito) MostrarError("ERROR: Debe ingresar solo numeros");
+                if (!exito) MostrarError("ERROR: Debe ingresar solo números");
             }
 
             return numero;
         }
 
-        public static void CrearUsuario()
+        public static void CrearClienteOcasional()
         {
             Console.Clear();
-            Console.WriteLine("****** CREAR USUARIO ******");
-            Console.Write("Ingrese el nombre: ");
-            string nombre = Console.ReadLine();
-            Console.Write("Ingrese el apellido: ");
-            string apellido = Console.ReadLine();
-            Console.Write("Ingrese nacionalidad: ");
-            string nacionalidad = Console.ReadLine();
-            Console.Write("Ingrese el email: ");
-            string mail = Console.ReadLine();
-            Console.Write("Ingrese la contraseña: ");
-            string contrasenia = Console.ReadLine();
+            Console.WriteLine("**** CREAR CLIENTE OCASIONAL ****");
+            Console.WriteLine();
 
+            string documento = PedirPalabras("Ingrese el documento del cliente: ");
+            string nombre = PedirPalabras("Ingrese el nombre del cliente: ");
+            string nacionalidad = PedirPalabras("Ingrese la nacionalidad del cliente: ");
+            string mail = PedirPalabras("Ingrese el mail del cliente: ");
+            string contrasenia = PedirPalabras("Ingrese la contraseña del cliente: ");
+            try
+            {
+                Cliente cl = new Cliente(documento, nombre, mail, contrasenia, nacionalidad);
+                miSistema.AgregarUsuario(cl);
+                MostrarExito("Cliente agregado correctamente...");
+            }
+            catch (Exception ex)
+            {
+                MostrarError(ex.Message);
+            }
 
-            if (string.IsNullOrEmpty(nombre)) throw new Exception("El nombre no puede ser vacio");
-            if (string.IsNullOrEmpty(apellido)) throw new Exception("El apellido no puede ser vacio");
-            if (string.IsNullOrEmpty(nacionalidad)) throw new Exception("La nacionalidad no puede ser vacio");
-            if (string.IsNullOrEmpty(mail)) throw new Exception("El email no puede ser vacio");
-            if (string.IsNullOrEmpty(contrasenia)) throw new Exception("La contraseña no puede ser vacio");
+        }
 
-            
+        public static void ListadoClientes()
+        {
+            Console.Clear();
+            Console.WriteLine("**** LISTADO DE CLIENTES ****");
+            Console.WriteLine();
 
+            try
+            {
+                List<Cliente> listaClientes = miSistema.ListaUsuarios;
+                if (listaClientes.Count == 0) throw new Exception("No hay clientes registrados en el sistema.");
+                foreach (Cliente c in listaClientes)
+                {
+                    Console.WriteLine(c.ToString());
+                }
+            }
+            catch (Exception ex)
+            {
+                MostrarError(ex.Message);
+            }
         }
     }
 }
