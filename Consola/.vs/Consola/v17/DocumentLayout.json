@@ -1,37 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Consola\\",
+  "WorkspaceRootPath": "C:\\Users\\dtecheira\\Desktop\\1\\1. Obligatorio\\obligatorio_01_05_2025\\Consola\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1804589-0240-4173-930A-44B64B127652}|Consola.csproj|g:\\ort\\programacion 2\\programacion 2 - b\\obligatorio 1\\entrega\\consola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F1804589-0240-4173-930A-44B64B127652}|Consola.csproj|c:\\users\\dtecheira\\desktop\\1\\1. obligatorio\\obligatorio_01_05_2025\\consola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1804589-0240-4173-930A-44B64B127652}|Consola.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56495E46-BDA3-47A2-A554-611869959683}|..\\Dominio\\Dominio.csproj|g:\\ort\\programacion 2\\programacion 2 - b\\obligatorio 1\\entrega\\dominio\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56495E46-BDA3-47A2-A554-611869959683}|..\\Dominio\\Dominio.csproj|g:\\ort\\programacion 2\\programacion 2 - b\\obligatorio 1\\entrega\\dominio\\pasaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56495E46-BDA3-47A2-A554-611869959683}|..\\Dominio\\Dominio.csproj|g:\\ort\\programacion 2\\programacion 2 - b\\obligatorio 1\\entrega\\dominio\\vuelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56495E46-BDA3-47A2-A554-611869959683}|..\\Dominio\\Dominio.csproj|g:\\ort\\programacion 2\\programacion 2 - b\\obligatorio 1\\entrega\\dominio\\ruta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56495E46-BDA3-47A2-A554-611869959683}|..\\Dominio\\Dominio.csproj|g:\\ort\\programacion 2\\programacion 2 - b\\obligatorio 1\\entrega\\dominio\\dia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56495E46-BDA3-47A2-A554-611869959683}|..\\Dominio\\Dominio.csproj|g:\\ort\\programacion 2\\programacion 2 - b\\obligatorio 1\\entrega\\dominio\\avion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56495E46-BDA3-47A2-A554-611869959683}|..\\Dominio\\Dominio.csproj|g:\\ort\\programacion 2\\programacion 2 - b\\obligatorio 1\\entrega\\dominio\\aeropuerto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56495E46-BDA3-47A2-A554-611869959683}|..\\Dominio\\Dominio.csproj|g:\\ort\\programacion 2\\programacion 2 - b\\obligatorio 1\\entrega\\dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56495E46-BDA3-47A2-A554-611869959683}|..\\Dominio\\Dominio.csproj|g:\\ort\\programacion 2\\programacion 2 - b\\obligatorio 1\\entrega\\dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56495E46-BDA3-47A2-A554-611869959683}|..\\Dominio\\Dominio.csproj|c:\\users\\dtecheira\\desktop\\1\\1. obligatorio\\obligatorio_01_05_2025\\dominio\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,49 +17,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Consola\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Consola\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T21:54:05.057Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Sistema.cs",
-              "DocumentMoniker": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Sistema.cs",
-              "RelativeDocumentMoniker": "..\\Dominio\\Sistema.cs",
-              "ToolTip": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Sistema.cs",
-              "RelativeToolTip": "..\\Dominio\\Sistema.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAIEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T20:17:40.851Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Dia.cs",
-              "DocumentMoniker": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Dia.cs",
-              "RelativeDocumentMoniker": "..\\Dominio\\Dia.cs",
-              "ToolTip": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Dia.cs",
-              "RelativeToolTip": "..\\Dominio\\Dia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T21:35:28.884Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -121,94 +56,33 @@
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Avion.cs",
-              "DocumentMoniker": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Avion.cs",
-              "RelativeDocumentMoniker": "..\\Dominio\\Avion.cs",
-              "ToolTip": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Avion.cs",
-              "RelativeToolTip": "..\\Dominio\\Avion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dtecheira\\Desktop\\1\\1. Obligatorio\\obligatorio_01_05_2025\\Consola\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\dtecheira\\Desktop\\1\\1. Obligatorio\\obligatorio_01_05_2025\\Consola\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAGsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T21:44:46.505Z",
+              "WhenOpened": "2025-05-01T19:35:17.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Usuario.cs",
-              "RelativeDocumentMoniker": "..\\Dominio\\Usuario.cs",
-              "ToolTip": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Usuario.cs",
-              "RelativeToolTip": "..\\Dominio\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Administrador.cs",
+              "DocumentMoniker": "C:\\Users\\dtecheira\\Desktop\\1\\1. Obligatorio\\obligatorio_01_05_2025\\Dominio\\Administrador.cs",
+              "RelativeDocumentMoniker": "..\\Dominio\\Administrador.cs",
+              "ToolTip": "C:\\Users\\dtecheira\\Desktop\\1\\1. Obligatorio\\obligatorio_01_05_2025\\Dominio\\Administrador.cs",
+              "RelativeToolTip": "..\\Dominio\\Administrador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T01:49:03.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Cliente.cs",
-              "RelativeDocumentMoniker": "..\\Dominio\\Cliente.cs",
-              "ToolTip": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Cliente.cs",
-              "RelativeToolTip": "..\\Dominio\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T20:12:38.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Aeropuerto.cs",
-              "DocumentMoniker": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Aeropuerto.cs",
-              "RelativeDocumentMoniker": "..\\Dominio\\Aeropuerto.cs",
-              "ToolTip": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Aeropuerto.cs",
-              "RelativeToolTip": "..\\Dominio\\Aeropuerto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T21:56:29.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Ruta.cs",
-              "DocumentMoniker": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Ruta.cs",
-              "RelativeDocumentMoniker": "..\\Dominio\\Ruta.cs",
-              "ToolTip": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Ruta.cs",
-              "RelativeToolTip": "..\\Dominio\\Ruta.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T22:01:55.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Vuelo.cs",
-              "DocumentMoniker": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Vuelo.cs",
-              "RelativeDocumentMoniker": "..\\Dominio\\Vuelo.cs",
-              "ToolTip": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Vuelo.cs",
-              "RelativeToolTip": "..\\Dominio\\Vuelo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T22:03:29.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Pasaje.cs",
-              "DocumentMoniker": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Pasaje.cs",
-              "RelativeDocumentMoniker": "..\\Dominio\\Pasaje.cs",
-              "ToolTip": "G:\\ORT\\Programacion 2\\Programacion 2 - B\\Obligatorio 1\\Entrega\\Dominio\\Pasaje.cs",
-              "RelativeToolTip": "..\\Dominio\\Pasaje.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T22:01:12.941Z",
+              "WhenOpened": "2025-05-01T14:07:59.362Z",
               "EditorCaption": ""
             }
           ]
